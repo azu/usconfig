@@ -3,9 +3,9 @@
 // @description   USConfig's Sample
 // @namespace     http://d.hatena.ne.jp/h1mesuke/
 // @author        h1mesuke
-// @version       1.2
-// @require       https://raw.github.com/azu/usconfig/v1.2/usconfig.js
-// @resource      usconfig.css https://raw.github.com/azu/usconfig/v1.2/usconfig.css.template
+// @version       1.2.1
+// @require       https://raw.github.com/azu/usconfig/v1.2.1/usconfig.js
+// @resource      usconfigcss https://raw.github.com/azu/usconfig/v1.2.1/usconfig.css.template
 // @include       http://*
 // @include       https://*
 // ==/UserScript==

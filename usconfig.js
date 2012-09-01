@@ -4,8 +4,7 @@
 //
 // File    : usconfig.js
 // Author  : h1mesuke <himesuke@gmail.com>
-// Updated : 2010-12-08
-// Version : 1.1.1
+// Version : 1.2.1
 //
 // == Description
 //
@@ -1031,8 +1030,7 @@ bp._style = function(theme, gap) {
   this._merge(env, theme);
 
   // template
-  var css = GM_getResourceText('usconfig.css');
-
+  var css = GM_getResourceText('usconfigcss');
   with (env) {
     css = css.replace(/<%(.*?)%>/g, function(str, p1) {
       return eval(p1);
